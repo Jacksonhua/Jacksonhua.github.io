@@ -149,7 +149,7 @@ function deepCopy(c, p) {
  */
 var JELON = window.JELON || {};
 JELON = deepCopy(JELON, {
-  name: 'JELON',
+  name: 'whh',
   version: '0.0.2',
   init: function() {
     this.toggleMenu();
