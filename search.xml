@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>my first blog</title>
+      <link href="/2022/08/18/nginx%E5%AE%89%E8%A3%85/"/>
+      <url>/2022/08/18/nginx%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<p>[TOC]</p><h1 id="第一主题"><a href="#第一主题" class="headerlink" title="第一主题"></a>第一主题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="1-安装依赖包"><a href="#1-安装依赖包" class="headerlink" title="1. 安装依赖包"></a>1. 安装依赖包</h3><pre><code class="bash">//一键安装四个依赖yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel</code></pre><h3 id="2-下载并解压安装包"><a href="#2-下载并解压安装包" class="headerlink" title="2. 下载并解压安装包"></a>2. 下载并解压安装包</h3><pre><code>//创建一个文件夹cd /usr/localmkdir nginxcd nginx//下载tar包wget http://nginx.org/download/nginx-1.13.7.tar.gztar -xvf nginx-1.13.7.tar.gz</code></pre><h3 id="3-安装nginx"><a href="#3-安装nginx" class="headerlink" title="3. 安装nginx"></a>3. 安装nginx</h3><pre><code>//进入nginx目录cd /usr/local/nginx//进入目录cd nginx-1.13.7//执行命令 考虑到后续安装ssl证书 添加两个模块,//#配置configure --prefix 代表安装的路径，--with-http_ssl_module 安装ssl，--with-http_stub_status_module查看nginx的客户端状态./configure --with-http_stub_status_module --with-http_ssl_module//执行make命令make//执行make install命令make install</code></pre><h3 id="4-启动服务"><a href="#4-启动服务" class="headerlink" title="4. 启动服务"></a>4. 启动服务</h3><pre><code>cd  /usr/local/nginx/sbin/nginx./nginx</code></pre><h2 id="安装踩坑"><a href="#安装踩坑" class="headerlink" title="安装踩坑"></a><strong>安装踩坑</strong></h2><p><img src="C:\Users\LC\AppData\Roaming\Typora\typora-user-images\1660809560871.png" alt="1660809560871"></p><pre><code>找到文件注释掉 /* cd.current_salt[0] = ~salt[0];*/</code></pre><p><img src="C:\Users\LC\AppData\Roaming\Typora\typora-user-images\1660809669179.png" alt="1660809669179"></p><blockquote><p>又出现了新的错误只需要将objs下面的Makefile中的第一行- werror删去即可</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nginx </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>my first blog</title>
+      <link href="/2021/08/10/first%20blog/"/>
+      <url>/2021/08/10/first%20blog/</url>
+      
+        <content type="html"><![CDATA[<p>时间如白驹过隙，尚未察觉2021半年已过，年初的目标仍然远在终点，大部分期许仍未完成。</p><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><ol><li>这半年的工作仍然是普普通通，项目运维和需求开发。function，es能力是有所进步，但是总体没有大的突破。  </li></ol><ul><li>程序员的硬实力，算法，源码阅读，设计模式没有提升</li><li>学习不论读书还是视频，总是浅尝辄止，好像什么都知道，但是什么都说不上来</li></ul><hr><h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><ul><li>处于理财的摸索阶段，之前没有理财观念，获得多少使用多少，很可耻的行为。还需要进一步的理财学习</li><li>一直存在于嘴边的远方，始终没有出发，这个不取决于兜里有没有钱</li><li>一直没有锻炼，懒于运动，以为谈恋爱就可以有动力运动，其实一切的原动力还是属于自己，而非外务</li><li>早睡早起，一直没有实现  </li></ul><hr><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>  总的来说，只是期许</p><ul><li>每日刷题，2道题，重要的是坚持</li><li>java 基础夯实</li><li>框架源码熟悉</li><li>设计模式</li><li>DDD 领域驱动设计概念熟悉</li><li>微服务学习</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活琐事 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 生活感悟 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2021/08/10/hello-world/"/>
+      <url>/2021/08/10/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
