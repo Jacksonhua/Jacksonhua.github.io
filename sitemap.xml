@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:4000/2022/08/19/test/</loc>
+    <loc>http://localhost:4000/2022/08/19/nginx%E5%AE%89%E8%A3%85/</loc>
     
     <lastmod>2022-08-19</lastmod>
     
   </url>
   
   <url>
-    <loc>http://localhost:4000/2022/08/18/nginx%E5%AE%89%E8%A3%85/</loc>
+    <loc>http://localhost:4000/2022/08/19/test/</loc>
     
-    <lastmod>2022-08-18</lastmod>
+    <lastmod>2022-08-19</lastmod>
     
   </url>
   
