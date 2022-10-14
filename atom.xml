@@ -6,7 +6,7 @@
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   
   <link href="http://localhost:4000/"/>
-  <updated>2022-08-19T02:36:54.541Z</updated>
+  <updated>2022-08-19T06:17:18.371Z</updated>
   <id>http://localhost:4000/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>blog部署服务器1</title>
+    <link href="http://localhost:4000/2022/08/19/blog%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1%E5%99%A81/"/>
+    <id>http://localhost:4000/2022/08/19/blog%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1%E5%99%A81/</id>
+    <published>2022-08-19T06:17:18.371Z</published>
+    <updated>2022-08-19T06:17:18.371Z</updated>
+    
+    <content type="html"><![CDATA[<p>[TOC]</p><h1 id="第一种方式"><a href="#第一种方式" class="headerlink" title="第一种方式"></a>第一种方式</h1><h3 id="1-绑定域名"><a href="#1-绑定域名" class="headerlink" title="1. 绑定域名"></a>1. 绑定域名</h3><p><img src="/http://localhost:4000//1660888988666.png" alt="1660888988666"></p><h3 id="2-登录github，找到项目，设置setting，找到GitHub-Pages"><a href="#2-登录github，找到项目，设置setting，找到GitHub-Pages" class="headerlink" title="2. 登录github，找到项目，设置setting，找到GitHub Pages,"></a>2. 登录github，找到项目，设置setting，找到GitHub Pages,</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1 id=&quot;第一种方式&quot;&gt;&lt;a href=&quot;#第一种方式&quot; class=&quot;headerlink&quot; title=&quot;第一种方式&quot;&gt;&lt;/a&gt;第一种方式&lt;/h1&gt;&lt;h3 id=&quot;1-绑定域名&quot;&gt;&lt;a href=&quot;#1-绑定域名&quot; class=&quot;headerl</summary>
+      
+    
+    
+    
+    <category term="学习" scheme="http://localhost:4000/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Nginx，部署" scheme="http://localhost:4000/tags/Nginx%EF%BC%8C%E9%83%A8%E7%BD%B2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>nginx安装</title>
     <link href="http://localhost:4000/2022/08/19/nginx%E5%AE%89%E8%A3%85/"/>
     <id>http://localhost:4000/2022/08/19/nginx%E5%AE%89%E8%A3%85/</id>
-    <published>2022-08-19T02:36:54.540Z</published>
-    <updated>2022-08-19T02:36:54.541Z</updated>
+    <published>2022-08-19T03:01:03.928Z</published>
+    <updated>2022-08-19T03:01:03.928Z</updated>
     
     <content type="html"><![CDATA[<p>[TOC]</p><h1 id="第一主题"><a href="#第一主题" class="headerlink" title="第一主题"></a>第一主题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="1-安装依赖包"><a href="#1-安装依赖包" class="headerlink" title="1. 安装依赖包"></a>1. 安装依赖包</h3><pre><code class="bash">//一键安装四个依赖yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel</code></pre><h3 id="2-下载并解压安装包"><a href="#2-下载并解压安装包" class="headerlink" title="2. 下载并解压安装包"></a>2. 下载并解压安装包</h3><pre><code>//创建一个文件夹cd /usr/localmkdir nginxcd nginx//下载tar包wget http://nginx.org/download/nginx-1.13.7.tar.gztar -xvf nginx-1.13.7.tar.gz</code></pre><h3 id="3-安装nginx"><a href="#3-安装nginx" class="headerlink" title="3. 安装nginx"></a>3. 安装nginx</h3><pre><code>//进入nginx目录cd /usr/local/nginx//进入目录cd nginx-1.13.7//执行命令 考虑到后续安装ssl证书 添加两个模块,//#配置configure --prefix 代表安装的路径，--with-http_ssl_module 安装ssl，--with-http_stub_status_module查看nginx的客户端状态./configure --with-http_stub_status_module --with-http_ssl_module//执行make命令make//执行make install命令make install</code></pre><h3 id="4-启动服务"><a href="#4-启动服务" class="headerlink" title="4. 启动服务"></a>4. 启动服务</h3><pre><code>cd  /usr/local/nginx/sbin/nginx./nginx</code></pre><h2 id="安装踩坑"><a href="#安装踩坑" class="headerlink" title="安装踩坑"></a><strong>安装踩坑</strong></h2><p><img src="/http://localhost:4000//1660809560871.png" alt="1660809560871"></p><pre><code>找到文件注释掉 /* cd.current_salt[0] = ~salt[0];*/</code></pre><p><img src="/http://localhost:4000//1660809669179.png" alt="1660809669179"></p><blockquote><p>又出现了新的错误只需要将objs下面的Makefile中的第一行- werror删去即可</p></blockquote>]]></content>
     

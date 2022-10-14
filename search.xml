@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>blog部署服务器1</title>
+      <link href="/2022/08/19/blog%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1%E5%99%A81/"/>
+      <url>/2022/08/19/blog%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1%E5%99%A81/</url>
+      
+        <content type="html"><![CDATA[<p>[TOC]</p><h1 id="第一种方式"><a href="#第一种方式" class="headerlink" title="第一种方式"></a>第一种方式</h1><h3 id="1-绑定域名"><a href="#1-绑定域名" class="headerlink" title="1. 绑定域名"></a>1. 绑定域名</h3><p><img src="/http://localhost:4000//1660888988666.png" alt="1660888988666"></p><h3 id="2-登录github，找到项目，设置setting，找到GitHub-Pages"><a href="#2-登录github，找到项目，设置setting，找到GitHub-Pages" class="headerlink" title="2. 登录github，找到项目，设置setting，找到GitHub Pages,"></a>2. 登录github，找到项目，设置setting，找到GitHub Pages,</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nginx，部署 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>nginx安装</title>
       <link href="/2022/08/19/nginx%E5%AE%89%E8%A3%85/"/>
       <url>/2022/08/19/nginx%E5%AE%89%E8%A3%85/</url>
