@@ -6,7 +6,7 @@
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   
   <link href="http://localhost:4000/"/>
-  <updated>2022-08-19T06:17:18.371Z</updated>
+  <updated>2022-10-14T06:57:17.205Z</updated>
   <id>http://localhost:4000/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>show</title>
+    <link href="http://localhost:4000/2022/10/14/show/"/>
+    <id>http://localhost:4000/2022/10/14/show/</id>
+    <published>2022-10-14T06:53:42.000Z</published>
+    <updated>2022-10-14T06:57:17.205Z</updated>
+    
+    <content type="html"><![CDATA[<p>[TOC]<br>#一级标题</p><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><pre><code class="java"></code></pre><pre><code class="flow">st=&gt;start: 时间到</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;[TOC]&lt;br&gt;#一级标题&lt;/p&gt;
+&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot; title=&quot;二级标题&quot;&gt;&lt;/a&gt;二级标题&lt;/h2&gt;&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>blog部署服务器1</title>
